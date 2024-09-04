@@ -1,6 +1,17 @@
-.git
+# Exclude Python virtual environment directory
 .venv
+
+# Exclude local Git repository data
+.git
+
+# Exclude unnecessary directories and files
 __pycache__
-.pytest_cache
-.DS_Store
+*.pyc
+*.pyo
+
+# Exclude Node.js modules if using a Node.js project
 node_modules
+
+# Exclude development and test files
+tests/
+*.test.js
