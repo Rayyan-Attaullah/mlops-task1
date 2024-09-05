@@ -1,0 +1,7 @@
+# .vercelignore
+__pycache__/
+*.pyc
+*.pyo
+.git/
+venv/
+.env
